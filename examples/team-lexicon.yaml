@@ -1,0 +1,11 @@
+name: northern-thai-team
+preferred:
+  - standard: "อีกแล้ว"
+    local: "แหมละ"
+  - standard: "ไม่"
+    local: "บ่"
+  - standard: "นะ"
+    local: "เน้อ"
+avoid:
+  - "คำแรงที่ทีมไม่ต้องการใช้"
+max_usage_ratio: 0.20

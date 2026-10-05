@@ -1,0 +1,6 @@
+{
+  "name": "pak-jaew-agent-skill",
+  "version": "0.1.0",
+  "description": "Communication-only Pak Jaew personality skill for coding agents.",
+  "skills": "./skills/"
+}
