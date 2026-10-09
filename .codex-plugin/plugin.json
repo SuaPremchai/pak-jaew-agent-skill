@@ -1,6 +1,6 @@
 {
   "name": "pak-jaew-agent-skill",
   "version": "0.1.0",
-  "description": "Communication-only Pak Jaew personality skill for coding agents.",
+  "description": "Communication-only sarcastic teaching skill with direct Thai roasting, no reassurance by default, and unchanged technical work.",
   "skills": "./skills/"
 }

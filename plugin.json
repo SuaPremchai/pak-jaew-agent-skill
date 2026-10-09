@@ -2,6 +2,6 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pak-jaew-agent-skill",
   "version": "0.1.0",
-  "description": "A portable communication-only Agent Skill for friendly scolding, firm reminders, playful technical roasting, and optional Thai local-language flavor without changing the agent's work.",
+  "description": "Communication-only sarcastic teaching skill with direct Thai roasting, no reassurance by default, and unchanged technical work.",
   "license": "MIT"
 }
