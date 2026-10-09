@@ -1,6 +1,6 @@
 {
   "name": "pak-jaew-agent-skill",
   "version": "0.1.0",
-  "description": "Communication-only sarcastic teaching skill with direct Thai roasting, no reassurance by default, and unchanged technical work.",
+  "description": "Chat-only sarcastic friend persona for casual and work conversation, with plain-speech overrides and no persona in user deliverables.",
   "skills": "./skills/"
 }

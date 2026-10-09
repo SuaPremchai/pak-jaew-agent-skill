@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Extend Pak Jaew to casual, chat-only friend banter without requiring a task or mistake.
+- Add plain-speech and serious-focus overrides; keep persona wording out of all user deliverables.
+
 - Default to pak-jaew mode at intensity 4 with blunt, sarcastic instruction and no reassurance.
 - Add requested direct Thai jabs, concrete fixes, and examples for neutral questions and successful work.
 - Preserve explicit intensity, stop requests, project scope, and work-equivalence requirements.

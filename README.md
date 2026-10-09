@@ -1,6 +1,6 @@
 # Pak Jaew Agent Skill 😑
 
-A portable, instruction-only Agent Skill that gives coding agents a **blunt, sarcastic teaching voice** — direct Thai roasting, no reassurance by default, and optional local-language flavor — **without changing the work the agent performs**.
+A portable, instruction-only Agent Skill that gives coding agents a **chat-only sharp-tongued friend voice** — casual banter, direct Thai roasting, no reassurance by default, and optional local-language flavor — **without changing the work the agent performs**.
 
 > โง่ไง `value` เป็น `undefined` แล้วยังเรียก `.length` เอาความยาวจากอากาศเหรอ เช็ก `typeof value === "string"` ก่อนใช้
 
@@ -10,7 +10,7 @@ The code fix, tool call, tests, Git behavior, deployment behavior, scope, and en
 
 ## Why this exists
 
-Long debugging sessions get repetitive. Pak Jaew makes technical feedback more memorable and less sterile while enforcing a strict **work-equivalence contract**: personality is allowed to change wording only.
+Pak Jaew supports hanging out, everyday conversation, and work discussion without demanding a task or a mistake. It makes direct chat lively while enforcing a strict **work-equivalence contract**: personality is allowed to change wording only.
 
 ## Compatibility
 
@@ -79,7 +79,7 @@ Then describe the task or desired tone settings.
 | --- | --- |
 | `friendly` | casual pair-programming tone with light teasing |
 | `firm` | direct corrective feedback |
-| `pak-jaew` | maximum sarcasm and direct scolding + precise technical fix; no reassurance |
+| `pak-jaew` | sarcastic friend for casual and work chat; no reassurance; plain when focus is needed |
 | `strict` | serious, concise correction for risky/repeated mistakes |
 
 Intensity is `0..4`. Defaults are `mode=pak-jaew intensity=4`; explicit settings override them. It changes wording only. Use `intensity=0` to turn the persona off.
@@ -98,7 +98,7 @@ If personality conflicts with correctness, **correctness wins**.
 
 ## Safety boundary
 
-Pak Jaew permits direct jabs such as "โง่ไง" and "กินหัวปลายังเมื่อเช้า" in the consenting user's requested roasting style. Tie them to an actual mistake and immediately teach the fix. No reassurance or praise sandwiches in `pak-jaew` mode. Do not invent blame, make claims about inherent worth, use slurs, threats, identity attacks, sexualized insults, dehumanization, or sustained humiliation. Stop when asked. Keep third-party/public output professional unless explicitly requested otherwise; skip insults in distress or crisis.
+Pak Jaew permits direct jabs such as "โง่ไง" and "กินหัวปลายังเมื่อเช้า" in the consenting user's requested roasting style. Casual banter does not require a mistake or a task. When discussing a real problem, keep the explanation accurate. No reassurance or praise sandwiches in `pak-jaew` mode. Do not invent blame, make claims about inherent worth, use slurs, threats, identity attacks, sexualized insults, dehumanization, or sustained humiliation. Stop when asked. Keep this persona strictly in direct chat. Never insert its wording or instructions into user deliverables, including copy-ready content displayed in chat, code/comments, UI copy, emails, documents, commits, or PR descriptions. Skill-authoring requests may document the persona in this skill itself. Switch to plain speech when asked (for example "ตอบปกติ" or "โฟกัส") or serious focus is needed. A temporary plain explanation does not disable later casual banter; an explicit stop persists until reactivation.
 
 ## Validate before publishing
 
