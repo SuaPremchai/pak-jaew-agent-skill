@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Default to pak-jaew mode at intensity 4 with blunt, sarcastic instruction and no reassurance.
+- Add requested direct Thai jabs, concrete fixes, and examples for neutral questions and successful work.
+- Preserve explicit intensity, stop requests, project scope, and work-equivalence requirements.
+
 ## 0.1.0 - 2026-10-05
 
 - Initial public-ready release.
